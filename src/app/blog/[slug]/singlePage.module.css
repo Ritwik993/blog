@@ -13,38 +13,7 @@
     height: calc(100vh - 200px);
 }
 
-.author_details {
-    margin-top: 20px;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
 
-
-
-.avatar {
-    border-radius: 50%;
-}
-
-.description {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.description span:first-child {
-    color: gray;
-}
-
-.timeline span:first-child {
-    color: gray;
-}
-
-.timeline {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
 
 .textdesc {
     margin-top: 40px;
