@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    gap: 100px;
+}
+
+.imageContainer{
+position: relative;
+flex: 1;
+/* height: 500px;
+ width: 500px;     */
+}
+
+.img{
+    object-fit: contain;
+}
+
+.formContainer{
+    flex: 1;
+}
+.formBox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputBox{
+    padding: 15px;
+    background-color: var(--bgSoft);
+    color: var(--text);
+    outline: none;
+}
+
+.textBox{
+    background-color: var(--bgSoft);
+    color: var(--text);
+    outline: none;
+    padding: 15px;
+}
+
+.button{
+    padding: 20px;
+    background-color: var(--btn);
+    border: none;
+    color: var(--text);
+    border-radius: 5px;
+}
+
+@media(max-width:768px){
+    .container{
+        flex-direction: column;
+        gap: 100px;
+    }
+}
